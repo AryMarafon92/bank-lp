@@ -1,0 +1,970 @@
+body {
+  letter-spacing: 0;
+  font-weight: 300;
+  font-size: 1.4rem;
+  line-height: 1.8;
+  color: black !important;
+}
+/*register*/
+.register-title {
+  text-transform: none !important;
+  color: #272EE5;
+  font-size: 40px;
+  font-weight: 900;
+}
+.register-form-bloc-style {
+  background-color: #D8D8D8;
+  height: 100%;
+}
+.register-form-column-style {
+    margin-top:1% !important;
+}
+.container-register {
+  padding: 0px;
+}
+.register-container {
+  padding: 5% 10% !important;
+}
+.register-img {
+  width: 75%;
+  margin-left: 12.5%;
+}
+.form-check {
+  margin-top: 1%;
+}
+.form-check-input {
+  width: 10%;
+  margin-left: 1%;
+}
+.register-btn {
+  margin-left: 35% !important;
+}
+/*remove input number button */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    /* display: none; <- Crashes Chrome on hover */
+    -webkit-appearance: none;
+    margin: 0; /* <-- Apparently some margin are still there even though it's hidden */
+}
+input[type=number] {
+    -moz-appearance:textfield;
+}
+.textboldg {
+  font-size: 63px;
+  font-family: Poppins, sans-serif;
+  font-weight: bold;
+  line-height: 56px;
+}
+
+.btn-blue {
+  background-color: #2E25E8;
+  padding-bottom: 8px;
+  padding-top: 8px;
+  border-radius: 10px;
+  font-size: 14px;
+  color: white !important;
+
+}
+
+.textboldmd {
+  font-size: 47px;
+  font-family: Poppins, sans-serif;
+  font-weight: 600;
+  line-height: 56px;
+}
+
+.backblue {
+  background-color: #2E25E8 !important;
+}  
+.backpink{
+  background-color: #EB53A9 !important;
+}
+
+.btn-white {
+  color: black;
+  border-radius: 10px;
+  background-color: white;
+  font-size: 14px;
+}
+
+.container {
+  padding: 0px;
+}
+
+.textwhitebold {
+  font-weight: bold;
+  font-size: 47px;
+  color: #ffffff;
+  padding-top: 0px;
+  padding-left: 100px;
+}
+
+.whitebold {
+  color: rgb(255,255,255);
+  font-size: 47px;
+  font-weight: bold;
+  padding-top: 58px;
+
+  line-height: 44px;
+}
+
+.footerbold {
+  font-weight: bold;
+}
+
+.link {
+  color: black;
+  padding-top: 20px;
+}
+
+.footeradd {
+  padding-left: 100px;
+  margin-top: 20px;
+  border-top: 1px solid grey;
+  border-bottom: 1px solid grey;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.textboldmdd {
+  font-size: 47px;
+  font-weight: 600;
+}
+
+.textcenter {
+  text-align: center;
+  margin-top: 20px;
+  border-top: 1px solid grey;
+  border-bottom: 1px solid grey;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.whiteboldnomargin {
+  color: rgb(255,255,255);
+  font-size: 63px;
+  font-weight: 800;
+  
+}
+
+.textboldsm {
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.grey {
+  color: rgb(154,151,151);
+  margin-bottom: 56px;
+  margin-top: 20px;
+}
+
+.footerdark {
+  color: white;
+  font-weight: 700;
+  text-align: center;
+}
+
+.formmodal {
+  border: none;
+  border-bottom: 1px solid #979797;
+  margin: 5% 0% 0% 0%;
+  padding: 7px;
+  background-color: #D8D8D8;
+}
+
+.header {
+  font-family: Poppins, sans-serif;
+  font-size: 15px;
+}
+
+.imghome {
+  width: 96% !important;
+  margin-left: 0px;
+  margin-top: -577px;
+}
+
+.imgrelative {
+  position: relative;
+  width: 50% !important;
+  margin: 150px 0px -50px 100px;
+}
+
+.marginbottom60 {
+  margin-bottom: 61px;
+}
+
+.paraghome {
+  color: rgb(255,255,255);
+  font-size: 46px;
+  padding-top: 78px;
+  font-family: Poppins, sans-serif;
+  font-weight: 500;
+  
+}
+
+.psmwhite {
+  color: rgb(255,255,255);
+  width: auto;
+  max-width: 443px;
+  font-size: 1.8rem !important;
+  
+}
+
+.paddupndwn40 {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+
+.margin20 {
+  margin: 20px;
+}
+
+.pmdwhite {
+  height: 170px;
+  width: 411px;
+  margin-left: 40px;
+  margin-top: 78px;
+}
+
+.marginleft45 {
+  margin-left: 45px;
+}
+
+.max-width-600{
+  max-width: 600px;
+}
+
+.max-width-700{
+  max-width: 600px;
+  font-size: 1.7rem !important;
+}
+
+.marginleft-200{
+  margin-left: -469px;
+}
+
+.margin-nav{
+  margin-top: 15px !important;
+  margin-left: 480px !important;
+
+}
+
+.width-85{
+  width: 82%;
+}
+
+.width-64{
+  width: 64%;
+}
+
+.padd-about{
+  padding-bottom:0px !important;
+  padding-top:40px !important;
+}
+
+.img-absolute{
+  position: absolute;
+  margin: -306px 0px -5px 2px !important;
+  z-index: 9999;
+  width: 42% !important;
+}
+
+
+.img-absolute1 {
+  position: absolute !important;
+  margin: -302px 0px 0px 172px !important;
+  z-index: 9999 !important;
+  width: 26% !important;
+}
+
+
+
+.img-absolute2 {
+  position: absolute;
+  margin: -319px 0px 0px -142px !important;
+  z-index: 9999;
+  width: 38%;
+}
+
+.bkg-woman{
+  background-image: url("assets/img/img-woman.png");
+  background-size:cover; 
+  height: 694px;
+}
+
+.bold-text{
+  font-weight: 800 !important;
+}
+
+.text-63{
+  font-weight: 900 !important;
+  font-size: 63px;
+  line-height: 66px;
+}
+
+.text-47{
+  font-weight: 800 !important;
+  font-size: 47px;
+  line-height: 49px;
+}
+
+.img-absolute3{
+
+  position: absolute;
+  margin: -160px 0px 1px -400px !important;
+  z-index: 9999;
+  width: 70%;
+}
+
+.textblue-small{
+  font-size: 15px;
+  color: #2e25e8;
+  font-weight: 500 !important;
+}
+
+.bold-black{
+
+  font-size: 20px;
+  color: #000000;
+  font-weight: 700 !important;
+  line-height: 30px;
+}
+
+.transparent{
+  background-color: transparent;
+  color: transparent;
+  border: 0px;
+
+}
+/*adjusts*/
+.section-1 {margin-top: 5%;}
+.section-3 {padding-bottom: 7%;}
+.s3-image {width: 90%; margin-top: 15%;}
+
+.section-5 {color: #fff;}
+.s5-bloc-1 {background-image: url(); background-size: 100%; padding-bottom: 5%; padding-top: 5%; padding-right: 5% !important;}
+.s5-bloc-2 {background-image: url(../img/home/s5-bloc-2-image.png); background-size: 100%; padding-bottom: 5%; padding-top: 5%; padding-right: 5% !important;}
+
+.section-6 {color: #fff;}
+.s6-bloc-1-image-bloc {width: 75%;}
+.textblack {color: #000 !important;}
+.textblack a { color: #000 !important; }
+.f-lists-main {text-align: left;}
+
+.modal-header-register {text-align: -webkit-center; border:none;}
+.modal-register-footer {text-align: -webkit-center;}
+.modal-register-title {text-align: left; margin-left: 18.3%;}
+.modal-register-maintitle { line-height: 45px;}
+.modal-register-subtitle {font-family: Poppins, sans-serif; line-height: 20px !important;}
+.modal-register-form {padding-top: 5%; max-width: 100%;}
+
+/*card*/
+.card-image-1-absolute {
+  position: absolute !important;
+  margin: -242px 0px 0px 0px !important;
+  z-index: 9999 !important;
+  width: 35% !important;
+}
+.card-image-2-absolute {
+    position: absolute;
+    margin: -318px 0px 0px 0px !important;
+    z-index: 9999;
+    width: 36.5%;
+}
+
+/*MILHAS*/
+.milhas-image-1-absolute {
+    position: absolute;
+    margin: -306px 0px -5px 2px !important;
+    z-index: 9999;
+    width: 50% !important;
+}
+
+
+/*************** Dispositivos extra small (telefones em modo retrato, com menos de 576px) ***************/
+
+
+@media (max-width: 575.98px) { 
+  .feature-none {
+    width: 0% !important;
+    
+  }
+  .modal-center{
+    width: 100%;
+    position: absolute;
+      
+  }
+  .imgrelative2 {
+    position: relative;
+    width: 90% !important;
+    margin: 0px 52px 0px -147px;
+  }
+    .img2 {
+      width: 100% !important;
+      margin-left: 0px;
+      margin-top: -222px;
+      margin-bottom: 70px;
+  }
+  .imgrelative {
+    position: relative;
+    width: 92%;
+    margin: 0px 0px -42px 61px;
+  }
+
+  .imghome {
+    width: 100%;
+    margin-left: -144px;
+    margin-top: -136px;
+
+  }
+
+  .paddleft150 {
+    margin-left: 20px !important;
+  }
+
+  .psmwhite {
+    color: rgb(255,255,255);
+    width: auto;
+    margin-right: 2px;
+    max-width: 330px;
+    margin-left: 27px;
+  }
+
+  .textwhitebold {
+    font-weight: bold;
+    font-size: 47px;
+    color: #ffffff;
+    padding-top: 20px;
+    padding-left: 0px;
+  }
+
+  .psmhome {
+    color: #ffffff;
+    padding-left: 0px;
+    padding-bottom: 11px;
+    margin-bottom: 0px !important;
+  }
+
+  .section-block {
+    width: 100%;
+    padding-top: 7rem;
+    /* padding-bottom: 7rem; */
+    background-size: cover;
+    background-position: center;
+  }
+
+  .footer {
+    margin-top: 0px;
+    height: auto;
+    padding-top: 0px;
+    background: black;
+    padding-bottom: 60px;
+  }
+  .footer .footer-top {
+    padding-top: 5rem !important;
+    padding-bottom: 5rem !important
+  }
+  .section-block {
+    padding-top: 4rem !important;
+    padding-bottom: 2rem !important;
+  }
+
+  .gif {
+    width: 100%;
+    float: right;
+    margin-right: 0px; 
+    margin-top: 22px;
+  }
+
+  .feature-2 {
+    padding-bottom: 0 ;
+  }
+
+  .paraghome {
+    color: rgb(255,255,255);
+    font-size: 46px;  
+    padding-top: 78px;
+    font-family: Poppins, sans-serif;
+    font-weight: 500;
+    margin-left: -35px;
+  }
+
+  .marginleft-nav{
+    margin-left: 6% !important;
+  }
+
+  .button-nav{
+    background: blue !important;
+    border-radius: 10px !important;
+    color: white !important;
+    margin-top: 5px !important;
+    margin-bottom: 5px !important;
+  }
+
+  .pside80 {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+
+  .marginleft45 {
+    margin-left: 0px;
+  }
+  .marginleft30 {
+    margin-left: -43px !important;
+}
+  .img4 {
+    width: 78%;
+    margin-top: -85%;
+  }
+
+  .img3 {
+    position: relative;
+    width: 100%;
+    margin: 0% 0px 0% 32%;
+  }
+
+  .feature-n{
+    padding-bottom: 0 !important;
+  }
+
+  .ipad-app{
+    width: 34% !important;
+  }
+
+  .img-absolute1 {
+    position: absolute;
+    margin: 60px 0px 0px 185px !important;
+    z-index: 9999;
+    width: 41% !important;
+  }
+
+  .img-absolute2 {
+    position: absolute;
+    margin: -128px 0px 0px 70px !important;
+    z-index: 9999;
+    width: 0%;
+  }
+
+  .whiteboldnomargin {
+    color: rgb(255,255,255);
+    font-size: 57px;
+    font-weight: 800;
+  }
+  .img-absolute {
+    position: absolute;
+    width: 0%;
+}
+
+  .zero-padd{
+    padding-bottom: 0px !important;
+
+  }
+  .width-0{
+    width: 0% !important;
+  }
+
+  .marginipad{
+    margin-bottom: 40px !important;
+    margin-top: 5px !important;
+    margin-left: 0px !important;
+  }
+}
+
+/*************** Dispositivos small (telefones em modo paisagem, com 576px ou mais) ***************/
+@media (min-width: 576px) and (max-width: 767.98px) { 
+  .modal-center{
+    width: 70%;
+    position: absolute;
+    left: 50%;top: 50%;
+    transform: translate(-50%, -50%);
+     
+  }
+  
+ }
+@media only screen and (max-width: 768px){
+  .register-img-bloc-style {
+    display: none !important;
+  }
+  .form-check-input {
+
+  }
+  .register-btn {
+    width: 30%;
+  }
+}
+/*************** Dispositivos médios (tablets com 768px ou mais) ***************/
+@media (min-width: 768px) and (max-width: 991.98px) { 
+  .modal-center{
+    width: 70%;
+    position: absolute;
+    left: 50%;top: 50%;
+    transform: translate(-50%, -50%);
+     
+  }
+
+  .imghome {
+    width: 96% !important;
+    margin-left: 0px;
+    margin-top: -325px;
+}
+
+  .feature-n{
+    padding-bottom: 0 !important;
+  }
+
+  .imgrelative {
+    position: relative;
+    width: 100%;
+    margin: 0px 0px -94px 107px;
+  }
+
+  .marginleft-400{
+    margin-left: -340px;
+  }
+  .textwhitebold {
+    font-weight: bold;
+    font-size: 47px;
+    color: #ffffff;
+    padding-top: 20px;
+    padding-left: 0px;
+}
+
+  .psmwhite {
+    color: rgb(255,255,255);
+    width: auto;
+    max-width: 450px;
+  }
+  .gif {
+    width: 100%;
+    margin-left: -13px;
+    float: right;
+    margin-right: 0px;
+    margin-top: 22px;
+  }
+  .padd-faq{
+  padding-top: 2rem !important;
+    padding-bottom: 5rem !important;
+}
+  .section-block, .fullscreen-section .fullscreen-inner, .pagination-2 .pagination-next, .row.xlarge {
+    padding-top: 5rem !important;
+    padding-bottom: 3rem !important;
+  }
+
+  .marginleft-200 {
+    margin-left: -318px;
+  }
+
+  .footer .footer-top {
+    padding-top: 0rem !important;
+    padding-bottom: 5rem;
+  }
+
+  .feature-2 {
+    padding-bottom: 2rem ;
+  }
+
+  .marginleft-nav{
+    margin-left: 62% !important;
+  }
+
+  .heigth-600{
+    height: 844px;
+  }
+
+  .img3 {
+    position: relative;
+    width: 98%;
+    margin: 0% 0px 42% 31%;
+}
+  
+  .img2 {
+    width: 95% !important;
+    margin-left: 29px;
+    margin-top: -400px;
+    margin-bottom: 70px;
+  }
+
+  .width100 {
+    width: 50%; 
+  }
+
+  .width-85{
+    width: 85%;
+  }
+
+  .ipad-app{
+    width: 34% !important;
+  }
+
+  .feature-2 .feature-image img {
+      width: 96% ;
+      margin-bottom: 8px !important;
+  }
+
+  .ipad-img {
+    margin-top: -239px !important;
+    float: right;
+    width: 25% !important;
+  }
+
+  .ipad-margin{
+    margin-top: -95px;
+  }
+
+  .ipad-width{
+    width: 29% !important;
+    
+  }
+  .ipad-rigth{
+    width: 51%;
+    padding-left: 50px;
+    float: right;
+    margin-top: -47px !important;
+  }
+
+  .ipad-img2{
+    width: 47% !important;
+    margin-bottom: -95px !important;
+    
+  }
+  
+
+  .margin-top-{
+    margin-top: -19px;
+  }
+
+  .text-inicial{
+    margin-bottom: 14px;
+    margin-left: -74px;
+
+  }
+
+  .img-absolute {
+    position: absolute;
+    margin: -67px 0px 0px -11px !important;
+    z-index: 9999;
+    width: 50%;
+  }
+
+  .rigth-ipad {
+    float: right !important;
+  }
+
+  .img-absolute2 {
+    position: absolute;
+    margin: -296px 0px 0px 14px !important;
+    z-index: 9999;
+    width: 48%;
+  }
+
+  .img-absolute1 {
+    position: absolute;
+    margin: -110px 0px 0px -75px !important;
+    z-index: 9999;
+    width: 35% !important;
+  }
+
+  .zero-padd{
+    padding-bottom: 0px !important;
+  
+  }
+
+  .img3{
+    margin-top: 0px !important;
+    margin-bottom: 42px !important;
+  }
+
+  .marginipad{
+    margin-bottom: 14px !important;
+    margin-top: 5px !important;
+    margin-left: 0px !important;
+  }
+
+  .width-0{
+    width: 0% !important;
+  }
+
+ }
+
+/*************** Dispositivos large (desktops com 992px ou mais) ***************/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  .modal-center{
+    width: 50%;
+    position: absolute;
+    left: 50%;top: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  .textwhitebold {
+    font-weight: bold;
+    font-size: 47px;
+    color: #ffffff;
+    padding-top: 20px;
+    padding-left: 0px;
+  }
+  
+  .psmhome {
+    color: #ffffff;
+    padding-left: 0px;
+    padding-bottom: 20px;
+  }
+
+  .max-width-600{
+    max-width: 380px;
+  }
+  
+  .max-width-700{
+    max-width: 380px;
+  }
+
+  .marginleft-200 {
+    margin-left: -150px;
+}
+
+  .imgrelative {
+    position: relative;
+    width: 47% !important;
+    margin: 95px 0px 102px 120px !important;
+
+  }
+  .imghome {
+    width: 66% !important;
+    margin-left: -137px;
+    margin-top: -566px;
+}
+
+  .marginleft-nav{
+    margin-left: 12% !important;
+  }
+
+  .whiteboldnomargin {
+    color: rgb(255,255,255);
+    font-size: 47px;
+    font-weight: 700;
+    margin-left: 40px;
+  }
+
+  .img3 {
+    position: relative;
+    width: 120%;
+    margin: 0% 0px 8% 18%;
+  }
+  .img4 {
+    width: 98%;
+    margin-top: -97%;
+  }
+
+  .padd-about{
+    padding-bottom: 61px !important;
+    padding-top: 16px !important;
+  }
+
+  .feature-n{
+    padding-bottom: 0 !important;
+  }
+
+  .margin-top-{
+    margin-top: -19px;
+  }
+
+  .ipad-img{
+    margin-top: 0px !important;
+    width: 80% !important;
+
+  }
+
+  .ipad-width{
+    width: 33% !important;
+    float: right;
+    margin-right: 136px !important;
+  }
+
+  .ipad-img2{
+    width: 50% !important;
+    float: right !important;
+    margin-right: 29px !important;
+  }
+
+  .imgrelative2 {
+    position: relative;
+    width: 58% !important;
+    margin: 117px 45px -10px -118px;
+  }
+  .img-absolute1 {
+    position: absolute;
+    margin: -273px 0px 0px 107px !important;
+    z-index: 9999;
+    width: 41% !important;
+  }
+
+  .img-absolute2 {
+    position: absolute;
+    margin: -323px 0px 0px -172px !important;
+    z-index: 9999;
+    width: 64%;
+  }
+
+  .img-absolute {
+    position: absolute;
+    margin: -283px 0px -5px 2px !important;
+    z-index: 9999;
+    width: 59%;
+  }
+  .width-01{
+    width: 0% !important;
+  }
+
+  .padd0-on-ipad{
+    padding:0px !important;
+  }
+
+  .padd0-ipadpro{
+    padding-bottom: 0px !important;
+    margin-bottom: -13px !important;
+  }
+  
+ }
+
+/*************** Dispositivos extra large (desktops grandes com 1200px ou mais) ***************/
+@media (min-width: 1200px) { 
+
+  .nav-margin{
+    margin-left: 30% !important;
+    
+  }
+
+  .marginleft-nav{
+    margin-left: 24% !important;
+  }
+  .heigth-600{
+   height: 600px;
+  }
+
+  .padd-left{
+  padding-left: 130px;
+  }
+
+  .marginleft400 {
+    margin-left: 400px;
+    width: 40% !important;
+  }
+  .marginleft500 {
+    margin-left: 456px;
+    width: 29% !important;
+  }
+
+  .section-block, .fullscreen-section .fullscreen-inner, .pagination-2 .pagination-next, .row.xlarge {
+    padding-top: 11rem;
+  }
+  
+  .padd-left-180{
+    padding-left: 180px;
+  }
+ }
+
+.bg-contact {
+  background-image: url(assets/img/new-materials/header-contato.png);
+}
+
+
